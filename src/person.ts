@@ -1,5 +1,5 @@
-export interface IPerson {
-  Email: string;
-  FirstName: string;
-  LastName: string;
+export class Person {
+  public Email: string | undefined;
+  public FirstName: string | undefined;
+  public LastName: string | undefined;
 }

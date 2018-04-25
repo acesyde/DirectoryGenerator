@@ -1,6 +1,6 @@
-import { Greeter } from '../src/greeter';
+import { Generator } from '../src/generator';
 
 test('Should greet with message', () => {
-  const greeter = new Greeter('friend');
-  expect(greeter.greet()).toBe('Bonjour, friend!');
+  const generator = new Generator(10);
+  // expect(greeter.GenerateData()).toBe('Bonjour, friend!');
 });

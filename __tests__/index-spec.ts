@@ -1,5 +1,5 @@
 import * as index from '../src/index';
 
-test('Should have Greeter available', () => {
-  expect(index.Greeter).toBeTruthy();
+test('Should have Generator available', () => {
+  expect(index.Generator).toBeTruthy();
 });
